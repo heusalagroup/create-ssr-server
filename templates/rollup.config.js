@@ -46,7 +46,19 @@ export default {
             body: 'export default undefined;'
         }),
 
-        svgr({}),
+        svgr({
+            typescript: true,
+            exportType: 'named',
+            svgo: true,
+            svgoConfig: {
+                plugins: [
+                    {
+                        name: 'removeViewBox',
+                        active: false
+                    }
+                ]
+            }
+        }),
 
         image(),
 

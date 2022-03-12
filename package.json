@@ -1,6 +1,6 @@
 {
   "name": "@heusalagroup/create-ssr-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create Server Side Rendering ReactJS server",
   "main": "index.js",
   "bin": "./dist/create-ssr-server.js",
