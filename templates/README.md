@@ -10,13 +10,13 @@ modify content in HTML HEAD meta tags, etc.
 
 ## Running the pre-built server for development
 
-This project will have a pre-built version at ./dist/PROJECT_NAME-ssr-server.js.
+This project will have a pre-built version at ./dist/PROJECT-NAME-ssr-server.js.
 
 ```bash
 FRONTEND_DOCROOT_DIR=../frontend/build \
 BACKEND_LOG_LEVEL=DEBUG \
 BACKEND_API_URL='http://localhost:3500' \
-./dist/PROJECT_NAME-ssr-server.js
+./dist/PROJECT-NAME-ssr-server.js
 ```
 
 Keep in mind though, you'll need to re-compile it when frontend has modifications.

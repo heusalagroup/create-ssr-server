@@ -29,6 +29,6 @@
 
   },
   "include": [
-    "./src/create-backend.ts"
+    "./src/create-ssr-server.ts"
   ]
 }

@@ -5,7 +5,7 @@ import { main } from "./fi/hg/ssr/main";
 import { App } from "./fi/hg/ssr/app";
 
 const [nodeBin, scriptName, ...args] : string[] = [...process.argv];
-const appDir = args.shift() ?? pathResolve(__dirname, process?.env?.FRONTEND_DOCROOT_DIR ?? '../../frontend/build');
+const appDir = args.shift() ?? pathResolve(__dirname, process?.env?.FRONTEND_DOCROOT_DIR ?? 'path/to/frontend/build');
 
 main([
     nodeBin,
