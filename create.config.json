@@ -18,7 +18,7 @@
     "./src/App.ts",
     "./src/rollup.d.ts"
   ],
-  "postRename": {
+  "renameFiles": {
     "./gitignore": "./.gitignore"
   },
   "gitSubmodules": [
@@ -34,25 +34,45 @@
     }
   ],
   "packages": [
-    "@types/node",
-    "@types/lodash",
     "@babel/cli",
     "@babel/core",
     "@babel/preset-env",
     "@babel/preset-typescript",
     "@rollup/plugin-babel",
     "@rollup/plugin-commonjs",
+    "@rollup/plugin-image",
     "@rollup/plugin-inject",
     "@rollup/plugin-json",
     "@rollup/plugin-node-resolve",
     "@rollup/plugin-replace",
     "@rollup/plugin-typescript",
-    "typescript",
-    "tslib",
-    "ts-node",
-    "rollup-plugin-uglify",
+    "@svgr/rollup",
+    "@types/babel__core",
+    "@types/http-proxy",
+    "@types/i18next",
+    "@types/lodash",
+    "@types/node",
+    "@types/node-static",
+    "@types/react",
+    "@types/react-dom",
+    "@types/react-helmet",
+    "@types/react-i18next",
+    "http-proxy",
+    "i18next",
+    "lodash",
+    "node-static",
+    "react",
+    "react-dom",
+    "react-helmet",
+    "react-router-dom",
     "rollup",
-    "lodash"
+    "rollup-plugin-ignore-import",
+    "rollup-plugin-scss",
+    "rollup-plugin-uglify",
+    "sass",
+    "ts-node",
+    "tslib",
+    "typescript"
   ],
   "gitCommitMessage": "first commit",
   "gitBranch": "main"
