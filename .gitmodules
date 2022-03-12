@@ -1,0 +1,6 @@
+[submodule "src/fi/hg/core"]
+	path = src/fi/hg/core
+	url = git@github.com:heusalagroup/fi.hg.core.git
+[submodule "src/fi/hg/create"]
+	path = src/fi/hg/create
+	url = git@github.com:heusalagroup/fi.hg.create.git

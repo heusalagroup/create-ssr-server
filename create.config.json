@@ -1,0 +1,59 @@
+{
+  "preferredPackageSystem": "npm",
+  "gitOrganization": "@heusalagroup",
+  "organizationName": "Heusala Group",
+  "organizationEmail": "info@heusalagroup.fi",
+  "sourceDir": "./src",
+  "buildDir": "./dist",
+  "mainSourceFileTemplate": "./src/project-ssr-server.ts",
+  "files": [
+    "./LICENSE",
+    "./README.md",
+    "./gitignore",
+    "./Dockerfile",
+    "./docker-compose.yml",
+    "./babel.config.json",
+    "./rollup.config.js",
+    "./tsconfig.json",
+    "./src/App.ts",
+    "./src/rollup.d.ts"
+  ],
+  "postRename": {
+    "./gitignore": "./.gitignore"
+  },
+  "gitSubmodules": [
+    {
+      "url": "git@github.com:heusalagroup/fi.hg.core.git",
+      "path": "src/fi/hg/core",
+      "branch": "main"
+    },
+    {
+      "url": "git@github.com:heusalagroup/fi.hg.ssr.git",
+      "path": "src/fi/hg/ssr",
+      "branch": "main"
+    }
+  ],
+  "packages": [
+    "@types/node",
+    "@types/lodash",
+    "@babel/cli",
+    "@babel/core",
+    "@babel/preset-env",
+    "@babel/preset-typescript",
+    "@rollup/plugin-babel",
+    "@rollup/plugin-commonjs",
+    "@rollup/plugin-inject",
+    "@rollup/plugin-json",
+    "@rollup/plugin-node-resolve",
+    "@rollup/plugin-replace",
+    "@rollup/plugin-typescript",
+    "typescript",
+    "tslib",
+    "ts-node",
+    "rollup-plugin-uglify",
+    "rollup",
+    "lodash"
+  ],
+  "gitCommitMessage": "first commit",
+  "gitBranch": "main"
+}
