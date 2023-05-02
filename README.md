@@ -1,3 +1,5 @@
+**Join our [Discord](https://discord.gg/UBTrHxA78f) to discuss about our software!**
+
 # @heusalagroup/create-ssr-server
 
 Create Server Side Rendering ReactJS server:
