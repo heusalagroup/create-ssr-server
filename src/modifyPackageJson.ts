@@ -1,8 +1,9 @@
-// Copyright (c) 2022. Heusala Group Oy <info@heusalagroup.fi>. All rights reserved.
+// Copyright (c) 2022-2023. Heusala Group Oy <info@heusalagroup.fi>. All rights reserved.
 
 import { parseReadonlyJsonObject, ReadonlyJsonObject } from "./fi/hg/core/Json";
 import { CreatePackageConfig } from "./fi/hg/create/types/CreatePackageConfig";
-import { isArrayOf, isString } from "./fi/hg/core/modules/lodash";
+import { isArrayOf } from "./fi/hg/core/types/Array";
+import { isString } from "./fi/hg/core/types/String";
 
 export function modifyPackageJson (
     pkgJSON: ReadonlyJsonObject,

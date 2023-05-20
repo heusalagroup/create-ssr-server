@@ -4,3 +4,8 @@
 [submodule "src/fi/hg/create"]
 	path = src/fi/hg/create
 	url = git@github.com:heusalagroup/fi.hg.create.git
+[submodule "src/fi/hg/node"]
+	path = src/fi/hg/node
+	url = https://github.com/heusalagroup/fi.hg.node.git
+[submodule "./src/fi/hg/node"]
+	branch = main
